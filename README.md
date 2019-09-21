@@ -37,38 +37,56 @@ Run the FormSubmit.java file in Eclipse/Intellij IDE and test the Functionality
 
 
 
-# ***************************Working of Program**********************************************************************
+# Working of Program
 1.Open browser
+
 2.Navigate to http://localhost:3000/
+
 3.Select Brand and Model drop down
+
 4.Click on search button
+
 5.Close the browser
 
+
+
 6.open a new browser
+
 7.Navigate to http://localhost:3000/
+
 8.Select brand, model and enter keyword.
+
 9.Click on search button
+
 10.Then close the browser
 
+
+
 11.send a GET request to http://localhost:3000/
+
 12.validate the response status should be "200"
+
 13.validate the actual JSON from response should be match with expected Json
 
-# ************************************About project and Structure********************************************************
-1.src/test/java : contains all main functions
-	PACKAGES, Class and Functions
-	1.com.qwic.assessment.qaAssesment.Runner: which connect the feature file and step file and execution starts from here
-	    a.FormSubmitRunner.java: which configure path for feature file and step file.
-	2.com.qwic.assessment.qaAssesment.StepDefinition: contains class according to localhost page
-		a.FormSubmit.java: Contains all element related to form and Methods to perform action on Form.
-		b.RestAPIValidate.java: Contain all elements and methods to perform action on API like validate api status code, response , etc
-	3.com.qwic.assessment.qaAssesment.TestBase: this package contains class files for driver initialization and quit
-	    a.Base.java: Contain methods to initialize and close driver.
-	4.com.qwic.assessment.qaAssesment.Util: this package contains class files for browser launch and configuration
-		a.DisableImage.java: This class contains functions to disable browser image loading
-		b.Driver: This class contains function to launch browser, also to initialize Eventwebdirver listner and quit browser
-		c.HeadlessMode.java: This class will configure the browser to run in headless mode. it will work only with fire fox/
-		d.OsPath.java: Determines the OS and provides browser path accordingly.
-	5.src/test/resource/config: Contains config.properties file, browser exe files
-	6.src/test/resource/Feature: Contain test execution flow/logic
-	   a.FormSubmit.feature: Which contain scenarios for test execution, written in Ghrekin language
+# About project and Structure
+1.src/test/java : contains all main functions PACKAGES, Class and Functions
+	
+1.com.qwic.assessment.qaAssesment.Runner: which connect the feature file and step file and execution starts from here
+a.FormSubmitRunner.java: which configure path for feature file and step file.
+
+2.com.qwic.assessment.qaAssesment.StepDefinition: contains class according to localhost page
+a.FormSubmit.java: Contains all element related to form and Methods to perform action on Form.
+b.RestAPIValidate.java: Contain all elements and methods to perform action on API like validate api status code, response , etc
+	
+3.com.qwic.assessment.qaAssesment.TestBase: this package contains class files for driver initialization and quit
+a.Base.java: Contain methods to initialize and close driver.
+
+4.com.qwic.assessment.qaAssesment.Util: this package contains class files for browser launch and configuration
+a.DisableImage.java: This class contains functions to disable browser image loading
+b.Driver: This class contains function to launch browser, also to initialize Eventwebdirver listner and quit browser
+c.HeadlessMode.java: This class will configure the browser to run in headless mode. it will work only with fire fox/
+d.OsPath.java: Determines the OS and provides browser path accordingly.
+
+5.src/test/resource/config: Contains config.properties file, browser exe files
+6.src/test/resource/Feature: Contain test execution flow/logic
+a.FormSubmit.feature: Which contain scenarios for test execution, written in Ghrekin language
