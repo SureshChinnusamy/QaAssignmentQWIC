@@ -1,7 +1,7 @@
 # QaAssignmentQWIC
 QA Assignment for QWIC
 
-# This assisgnment validate the given farm by selecting various fields like drop down and filling text box, also validate api status and response data. 
+# This assignment validate the given form by selecting various fields like drop down and filling text box, also validate Api status and response data. 
 
 
 # Pre-requisite installation
@@ -52,7 +52,7 @@ Run the FormSubmit.java file in Eclipse/Intellij IDE and test the Functionality
 
 11.send a GET request to http://localhost:3000/
 12.validate the response status should be "200"
-13.validate the AcutalJSON from response should be match with ExpectedJson
+13.validate the actual JSON from response should be match with expected Json
 
 # ************************************About project and Structure********************************************************
 1.src/test/java : contains all main functions
@@ -61,8 +61,8 @@ Run the FormSubmit.java file in Eclipse/Intellij IDE and test the Functionality
 	    a.FormSubmitRunner.java: which configure path for feature file and step file.
 	2.com.qwic.assessment.qaAssesment.StepDefinition: contains class according to localhost page
 		a.FormSubmit.java: Contains all element related to form and Methods to perform action on Form.
-		b.RestAPIValidate.java: Contain all elements and methods to perform action on API like validate api status code, respone , etc
-	3.com.qwic.assessment.qaAssesment.TestBase: this package contains class files for driver intialitiation and quit
+		b.RestAPIValidate.java: Contain all elements and methods to perform action on API like validate api status code, response , etc
+	3.com.qwic.assessment.qaAssesment.TestBase: this package contains class files for driver initialization and quit
 	    a.Base.java: Contain methods to initialize and close driver.
 	4.com.qwic.assessment.qaAssesment.Util: this package contains class files for browser launch and configuration
 		a.DisableImage.java: This class contains functions to disable browser image loading
