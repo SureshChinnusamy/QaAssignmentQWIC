@@ -1,32 +1,32 @@
 # QaAssignmentQWIC
 QA Assignment for QWIC
 
-** This assisgnment gives about opening the browser and by fill the farm by selecting various fields like drop down and filling text box, also validate api status and response data. **
-Note: This assignment can be tested only with windows
+# This assisgnment gives about opening the browser and by fill the farm by selecting various fields like drop down and filling text box, also validate api status and response data. 
 
-** Pre-requisite installation**
+
+# Pre-requisite installation
 Java 1.8 or higher
 Maven 3.x
 
-** Environment variables to be set - Preferably System Variables**
+# Environment variables to be set - Preferably System Variables
 JAVA_HOME = <Path to Java Home>
 <M2_HOME> = <Path to Maven Home>
 Path = %JAVA_HOME%\bin;%M2_HOME%\bin;%PATH%
 
 
-** Commands to run the assignment **
+# Commands to run the assignment
 Please download the project to your computer, go to the root directory of the project and run the following command
 
 run: mvn clean install
 
 
-Alternate way to run
+# Alternate way to run
 
 Run the FormSubmit.java file in Eclipse/Intellij IDE and test the Functionality
 
 
 
-Important Points:
+# Important Points:
 1.Test data for browser selection and url is placed in "config.properties" file which is available in src/test/resources/config
 2.Application test data such as Brand and Model is placed in "FormSubmit.feature" file which is available in src/test/resources/Feature
 3.Test execution starts at "FormSubmitRunner.java" which is available in src/test/java/com.qwic.assessment.qaAssesment.Runner
@@ -37,7 +37,7 @@ Important Points:
 
 
 
-***************************Working of Program**********************************************************************
+# ***************************Working of Program**********************************************************************
 1.Open browser
 2.Navigate to http://localhost:3000/
 3.Select Brand and Model drop down
@@ -54,7 +54,7 @@ Important Points:
 12.validate the response status should be "200"
 13.validate the AcutalJSON from response should be match with ExpectedJson
 
-************************************About project and Structure********************************************************
+# ************************************About project and Structure********************************************************
 1.src/test/java : contains all main functions
 	PACKAGES, Class and Functions
 	1.com.qwic.assessment.qaAssesment.Runner: which connect the feature file and step file and execution starts from here
