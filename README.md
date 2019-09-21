@@ -1,7 +1,7 @@
 # QaAssignmentQWIC
 QA Assignment for QWIC
 
-# This assisgnment gives about opening the browser and by fill the farm by selecting various fields like drop down and filling text box, also validate api status and response data. 
+# This assisgnment validate the given farm by selecting various fields like drop down and filling text box, also validate api status and response data. 
 
 
 # Pre-requisite installation
