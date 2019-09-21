@@ -27,13 +27,13 @@ Run the FormSubmit.java file in Eclipse/Intellij IDE and test the Functionality
 
 
 # Important Points:
-1.Test data for browser selection and url is placed in "config.properties" file which is available in src/test/resources/config
-2.Application test data such as Brand and Model is placed in "FormSubmit.feature" file which is available in src/test/resources/Feature
-3.Test execution starts at "FormSubmitRunner.java" which is available in src/test/java/com.qwic.assessment.qaAssesment.Runner
-4.Path for browser is provided by OsPath.java class inside com.qwic.assessment.qaAssesment.Util
-5.This script is capable to execute in Image disable mode and Headless mode. However headless mode works only for Firefox Browser.
-6.Browser, Headless mode or image disable mode can be configured using "config.properties"
-7.Browser exe driver files are available in src/test/resources/config
+1.Test data for browser selection and url is placed in "config.properties" file which is available in src/test/resources/config<br/>
+2.Application test data such as Brand and Model is placed in "FormSubmit.feature" file which is available in src/test/resources/Feature<br/>
+3.Test execution starts at "FormSubmitRunner.java" which is available in src/test/java/com.qwic.assessment.qaAssesment.Runner<br/>
+4.Path for browser is provided by OsPath.java class inside com.qwic.assessment.qaAssesment.Util<br/>
+5.This script is capable to execute in Image disable mode and Headless mode. However headless mode works only for Firefox Browser.<br/>
+6.Browser, Headless mode or image disable mode can be configured using "config.properties"<br/>
+7.Browser exe driver files are available in src/test/resources/config<br/>
 
 
 
